@@ -1,0 +1,1536 @@
+2019-12-25 14:31:29,213-INFO-faster_rcnn_server.py:230 presenter server is starting...
+2019-12-25 14:31:29,214-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2019-12-25 14:31:43,647-INFO-faster_rcnn_server.py:230 presenter server is starting...
+2019-12-25 14:31:43,648-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2019-12-25 14:34:23,385-INFO-faster_rcnn_server.py:230 presenter server is starting...
+2019-12-25 14:34:23,386-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2019-12-25 14:34:58,139-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.57, client-port:34392, fd:10
+2019-12-25 14:34:58,343-ERROR-presenter_socket_server.py:146 socket 10 receive msg head null
+2019-12-25 14:34:58,344-ERROR-presenter_socket_server.py:213 msg_total_len is None.
+2019-12-25 14:34:58,344-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.56', 7006), raddr=('192.168.3.57', 34392)>}
+2019-12-25 14:35:17,391-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.57, client-port:34394, fd:10
+2019-12-25 14:35:17,595-ERROR-presenter_socket_server.py:146 socket 10 receive msg head null
+2019-12-25 14:35:17,597-ERROR-presenter_socket_server.py:213 msg_total_len is None.
+2019-12-25 14:35:17,597-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.56', 7006), raddr=('192.168.3.57', 34394)>}
+2019-12-25 14:36:41,772-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.57, client-port:34396, fd:10
+2019-12-25 14:36:41,974-ERROR-presenter_socket_server.py:146 socket 10 receive msg head null
+2019-12-25 14:36:41,975-ERROR-presenter_socket_server.py:213 msg_total_len is None.
+2019-12-25 14:36:41,975-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.56', 7006), raddr=('192.168.3.57', 34396)>}
+2019-12-25 14:39:56,344-INFO-faster_rcnn_server.py:230 presenter server is starting...
+2019-12-25 14:39:56,345-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2019-12-25 14:40:20,442-INFO-faster_rcnn_server.py:230 presenter server is starting...
+2019-12-25 14:40:20,443-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2019-12-25 14:40:40,996-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.57, client-port:34398, fd:10
+2019-12-25 14:40:41,003-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2019-12-25 14:40:41,003-INFO-channel_manager.py:216 register channel: video
+2019-12-25 14:40:41,004-INFO-channel_handler.py:215 create videothread-video...
+2019-12-25 14:40:41,004-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2019-12-25 14:44:12,987-ERROR-presenter_socket_server.py:146 socket 10 receive msg head null
+2019-12-25 14:44:13,009-ERROR-presenter_socket_server.py:213 msg_total_len is None.
+2019-12-25 14:44:13,009-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.56', 7006), raddr=('192.168.3.57', 34398)>}
+2019-12-25 14:44:13,017-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2019-12-25 14:44:13,017-INFO-channel_manager.py:139 clean channel: video's resource
+2019-12-25 14:44:13,021-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2019-12-26 15:48:25,554-INFO-faster_rcnn_server.py:230 presenter server is starting...
+2019-12-26 15:48:25,560-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2019-12-26 15:48:52,998-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.102, client-port:54376, fd:10
+2019-12-26 15:48:53,160-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2019-12-26 15:48:53,161-INFO-channel_manager.py:216 register channel: video
+2019-12-26 15:48:53,163-INFO-channel_handler.py:215 create videothread-video...
+2019-12-26 15:48:53,166-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2019-12-26 15:50:01,941-ERROR-presenter_socket_server.py:146 socket 10 receive msg head null
+2019-12-26 15:50:01,961-ERROR-presenter_socket_server.py:213 msg_total_len is None.
+2019-12-26 15:50:01,962-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.103', 7006), raddr=('192.168.3.102', 54376)>}
+2019-12-26 15:50:01,968-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2019-12-26 15:50:01,968-INFO-channel_manager.py:139 clean channel: video's resource
+2019-12-26 15:50:01,969-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 14:08:39,266-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 14:08:52,346-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 14:09:10,702-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 14:10:35,077-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 14:10:35,078-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 14:12:55,340-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.102, client-port:52880, fd:10
+2020-01-06 14:12:55,434-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 14:12:55,435-INFO-channel_manager.py:216 register channel: video
+2020-01-06 14:12:55,435-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 14:12:55,436-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 14:13:14,184-ERROR-presenter_socket_server.py:146 socket 10 receive msg head null
+2020-01-06 14:13:14,187-ERROR-presenter_socket_server.py:213 msg_total_len is None.
+2020-01-06 14:13:14,187-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.102', 52880)>}
+2020-01-06 14:13:14,189-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 14:13:14,191-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 14:13:14,192-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 14:13:25,687-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.102, client-port:52884, fd:10
+2020-01-06 14:13:25,698-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 14:13:25,699-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 14:13:28,921-ERROR-presenter_socket_server.py:146 socket 10 receive msg head null
+2020-01-06 14:13:28,923-ERROR-presenter_socket_server.py:213 msg_total_len is None.
+2020-01-06 14:13:28,923-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.102', 52884)>}
+2020-01-06 14:13:28,924-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 14:13:28,924-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 14:13:28,925-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 14:23:39,922-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 14:23:39,923-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 14:25:00,636-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:46916, fd:10
+2020-01-06 14:25:06,806-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 14:25:06,807-INFO-channel_manager.py:216 register channel: video
+2020-01-06 14:25:06,807-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 14:25:06,808-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 14:26:50,634-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 14:26:50,635-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 14:26:50,636-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:05:33,726-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:05:33,727-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:07:12,843-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47740, fd:10
+2020-01-06 15:07:17,248-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:07:17,249-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:07:17,250-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:07:17,251-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:07:17,254-ERROR-presenter_socket_server.py:249 receive socket error.
+2020-01-06 15:07:17,255-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:07:17,255-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:07:17,256-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:07:17,256-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47742, fd:10
+2020-01-06 15:07:17,256-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:07:17,449-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:17,450-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:17,450-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47742)>}
+2020-01-06 15:07:17,451-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47744, fd:10
+2020-01-06 15:07:17,652-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:17,653-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:17,654-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47744)>}
+2020-01-06 15:07:17,655-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47746, fd:10
+2020-01-06 15:07:17,853-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:17,854-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:17,855-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47746)>}
+2020-01-06 15:07:17,856-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47748, fd:10
+2020-01-06 15:07:18,055-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:18,056-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:18,057-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47748)>}
+2020-01-06 15:07:18,058-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47750, fd:10
+2020-01-06 15:07:18,255-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:18,255-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:18,256-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47750)>}
+2020-01-06 15:07:18,257-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47752, fd:10
+2020-01-06 15:07:18,456-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:18,457-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:18,458-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47752)>}
+2020-01-06 15:07:18,459-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47754, fd:10
+2020-01-06 15:07:18,657-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:18,658-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:18,659-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47754)>}
+2020-01-06 15:07:18,661-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47756, fd:10
+2020-01-06 15:07:18,858-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:18,858-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:18,858-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47756)>}
+2020-01-06 15:07:18,860-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47758, fd:10
+2020-01-06 15:07:19,061-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:19,063-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:19,067-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47758)>}
+2020-01-06 15:07:19,069-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47760, fd:10
+2020-01-06 15:07:19,261-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:19,262-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:19,262-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47760)>}
+2020-01-06 15:07:19,268-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47762, fd:10
+2020-01-06 15:07:19,477-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:19,478-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:19,478-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47762)>}
+2020-01-06 15:07:19,480-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47764, fd:10
+2020-01-06 15:07:19,677-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:19,677-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:19,678-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47764)>}
+2020-01-06 15:07:19,678-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47766, fd:10
+2020-01-06 15:07:19,878-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:19,878-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:19,879-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47766)>}
+2020-01-06 15:07:19,880-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47768, fd:10
+2020-01-06 15:07:20,079-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:20,079-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:20,079-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47768)>}
+2020-01-06 15:07:20,079-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47770, fd:10
+2020-01-06 15:07:20,280-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:20,282-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:20,283-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47770)>}
+2020-01-06 15:07:20,286-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47772, fd:10
+2020-01-06 15:07:20,480-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:20,480-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:20,481-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47772)>}
+2020-01-06 15:07:20,481-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47774, fd:10
+2020-01-06 15:07:20,682-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:20,684-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:20,685-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47774)>}
+2020-01-06 15:07:20,693-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47776, fd:10
+2020-01-06 15:07:20,884-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:20,885-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:20,885-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47776)>}
+2020-01-06 15:07:20,889-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47778, fd:10
+2020-01-06 15:07:21,083-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:07:21,083-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:07:21,083-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47778)>}
+2020-01-06 15:07:21,084-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47780, fd:10
+2020-01-06 15:08:01,078-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:08:01,079-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:09:25,078-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47818, fd:10
+2020-01-06 15:09:28,506-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:09:28,506-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:09:28,507-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:09:28,507-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:09:28,508-ERROR-presenter_socket_server.py:249 receive socket error.
+2020-01-06 15:09:28,508-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:09:28,509-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:09:28,509-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:09:28,509-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:09:28,510-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47820, fd:10
+2020-01-06 15:09:28,706-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:28,706-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:28,706-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47820)>}
+2020-01-06 15:09:28,707-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47824, fd:10
+2020-01-06 15:09:28,908-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:28,909-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:28,910-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47824)>}
+2020-01-06 15:09:28,911-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47826, fd:10
+2020-01-06 15:09:29,110-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:29,110-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:29,111-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47826)>}
+2020-01-06 15:09:29,113-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47828, fd:10
+2020-01-06 15:09:29,312-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:29,312-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:29,313-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47828)>}
+2020-01-06 15:09:29,317-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47830, fd:10
+2020-01-06 15:09:29,512-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:29,512-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:29,513-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47830)>}
+2020-01-06 15:09:29,515-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47832, fd:10
+2020-01-06 15:09:29,714-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:29,714-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:29,715-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47832)>}
+2020-01-06 15:09:29,726-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47834, fd:10
+2020-01-06 15:09:29,916-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:29,916-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:29,917-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47834)>}
+2020-01-06 15:09:29,918-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47836, fd:10
+2020-01-06 15:09:30,117-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:30,118-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:30,118-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47836)>}
+2020-01-06 15:09:30,122-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47838, fd:10
+2020-01-06 15:09:30,317-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:30,319-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:30,320-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47838)>}
+2020-01-06 15:09:30,320-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47840, fd:10
+2020-01-06 15:09:30,518-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:30,519-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:30,520-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47840)>}
+2020-01-06 15:09:30,522-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47842, fd:10
+2020-01-06 15:09:30,720-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:30,720-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:30,721-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47842)>}
+2020-01-06 15:09:30,723-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47844, fd:10
+2020-01-06 15:09:30,920-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:30,920-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:30,921-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47844)>}
+2020-01-06 15:09:30,921-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47846, fd:10
+2020-01-06 15:09:31,122-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:31,123-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:31,123-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47846)>}
+2020-01-06 15:09:31,125-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47848, fd:10
+2020-01-06 15:09:31,325-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:31,326-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:31,331-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47848)>}
+2020-01-06 15:09:31,332-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47850, fd:10
+2020-01-06 15:09:31,524-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:31,524-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:31,524-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47850)>}
+2020-01-06 15:09:31,527-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47852, fd:10
+2020-01-06 15:09:31,724-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:31,724-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:31,725-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47852)>}
+2020-01-06 15:09:31,726-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47854, fd:10
+2020-01-06 15:09:31,924-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:31,925-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:31,925-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47854)>}
+2020-01-06 15:09:31,926-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47856, fd:10
+2020-01-06 15:09:32,127-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:32,127-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:32,127-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47856)>}
+2020-01-06 15:09:32,127-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47858, fd:10
+2020-01-06 15:09:32,328-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:09:32,329-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:09:32,330-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47858)>}
+2020-01-06 15:09:32,331-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47860, fd:10
+2020-01-06 15:09:50,658-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:09:50,659-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:09:53,805-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47872, fd:10
+2020-01-06 15:10:08,406-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:10:08,406-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:10:11,317-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47880, fd:10
+2020-01-06 15:10:14,935-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:10:14,935-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:10:14,937-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:10:14,937-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:10:14,939-ERROR-presenter_socket_server.py:249 receive socket error.
+2020-01-06 15:10:14,939-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:10:14,940-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:10:14,940-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:10:14,941-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47882, fd:10
+2020-01-06 15:10:14,941-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:10:15,136-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:15,137-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:15,137-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47882)>}
+2020-01-06 15:10:15,138-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47884, fd:10
+2020-01-06 15:10:15,338-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:15,338-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:15,339-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47884)>}
+2020-01-06 15:10:15,340-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47886, fd:10
+2020-01-06 15:10:15,538-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:15,539-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:15,540-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47886)>}
+2020-01-06 15:10:15,542-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47888, fd:10
+2020-01-06 15:10:15,739-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:15,739-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:15,739-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47888)>}
+2020-01-06 15:10:15,739-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47890, fd:10
+2020-01-06 15:10:15,940-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:15,940-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:15,941-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47890)>}
+2020-01-06 15:10:15,941-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47892, fd:10
+2020-01-06 15:10:16,141-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:16,141-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:16,142-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47892)>}
+2020-01-06 15:10:16,144-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47894, fd:10
+2020-01-06 15:10:16,342-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:16,342-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:16,342-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47894)>}
+2020-01-06 15:10:16,344-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47896, fd:10
+2020-01-06 15:10:16,543-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:16,544-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:16,545-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47896)>}
+2020-01-06 15:10:16,547-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47898, fd:10
+2020-01-06 15:10:16,744-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:16,745-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:16,746-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47898)>}
+2020-01-06 15:10:16,748-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47900, fd:10
+2020-01-06 15:10:16,945-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:16,945-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:16,946-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47900)>}
+2020-01-06 15:10:16,947-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47902, fd:10
+2020-01-06 15:10:17,148-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:17,148-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:17,149-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47902)>}
+2020-01-06 15:10:17,151-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47904, fd:10
+2020-01-06 15:10:17,351-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:17,354-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:17,355-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47904)>}
+2020-01-06 15:10:17,357-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47906, fd:10
+2020-01-06 15:10:17,549-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:17,549-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:17,550-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47906)>}
+2020-01-06 15:10:17,551-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47908, fd:10
+2020-01-06 15:10:17,752-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:17,753-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:17,753-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47908)>}
+2020-01-06 15:10:17,755-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47910, fd:10
+2020-01-06 15:10:17,955-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:17,957-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:17,958-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47910)>}
+2020-01-06 15:10:17,960-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47912, fd:10
+2020-01-06 15:10:18,154-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:18,154-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:18,155-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47912)>}
+2020-01-06 15:10:18,156-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47914, fd:10
+2020-01-06 15:10:18,357-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:18,358-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:18,359-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47914)>}
+2020-01-06 15:10:18,362-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47916, fd:10
+2020-01-06 15:10:18,558-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:18,558-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:18,559-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47916)>}
+2020-01-06 15:10:18,565-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47918, fd:10
+2020-01-06 15:10:18,759-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:10:18,760-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:10:18,760-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 47918)>}
+2020-01-06 15:10:18,762-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47920, fd:10
+2020-01-06 15:13:49,613-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:13:49,615-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:13:54,206-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47980, fd:10
+2020-01-06 15:13:59,628-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:47984, fd:11
+2020-01-06 15:14:03,674-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:14:03,674-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:14:03,675-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:14:03,675-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:11, media_type:video
+2020-01-06 15:15:47,045-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:15:47,046-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:15:51,124-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48074, fd:10
+2020-01-06 15:15:56,287-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:15:56,287-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:15:56,288-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:15:56,288-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:17:13,954-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:17:13,955-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:17:20,302-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48114, fd:10
+2020-01-06 15:17:23,974-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:17:23,974-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:17:23,975-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:17:23,975-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:17:23,978-ERROR-presenter_socket_server.py:249 receive socket error.
+2020-01-06 15:17:23,980-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:17:23,983-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:17:23,984-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:17:23,984-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48118, fd:10
+2020-01-06 15:17:23,985-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:17:24,174-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:24,175-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:24,175-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48118)>}
+2020-01-06 15:17:24,177-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48120, fd:10
+2020-01-06 15:17:24,377-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:24,377-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:24,378-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48120)>}
+2020-01-06 15:17:24,382-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48122, fd:10
+2020-01-06 15:17:24,577-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:24,577-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:24,577-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48122)>}
+2020-01-06 15:17:24,579-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48124, fd:10
+2020-01-06 15:17:24,777-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:24,778-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:24,778-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48124)>}
+2020-01-06 15:17:24,780-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48126, fd:10
+2020-01-06 15:17:24,978-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:24,979-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:24,979-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48126)>}
+2020-01-06 15:17:24,980-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48128, fd:10
+2020-01-06 15:17:25,178-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:25,179-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:25,180-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48128)>}
+2020-01-06 15:17:25,182-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48130, fd:10
+2020-01-06 15:17:25,380-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:25,381-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:25,383-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48130)>}
+2020-01-06 15:17:25,384-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48132, fd:10
+2020-01-06 15:17:25,580-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:25,581-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:25,581-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48132)>}
+2020-01-06 15:17:25,583-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48134, fd:10
+2020-01-06 15:17:25,783-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:25,784-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:25,785-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48134)>}
+2020-01-06 15:17:25,792-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48136, fd:10
+2020-01-06 15:17:25,983-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:25,983-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:25,984-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48136)>}
+2020-01-06 15:17:25,985-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48138, fd:10
+2020-01-06 15:17:26,184-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:26,185-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:26,187-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48138)>}
+2020-01-06 15:17:26,188-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48140, fd:10
+2020-01-06 15:17:26,390-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:26,402-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:26,403-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48140)>}
+2020-01-06 15:17:26,404-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48142, fd:10
+2020-01-06 15:17:26,587-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:26,587-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:26,587-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48142)>}
+2020-01-06 15:17:26,588-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48144, fd:10
+2020-01-06 15:17:26,787-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:26,787-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:26,787-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48144)>}
+2020-01-06 15:17:26,788-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48146, fd:10
+2020-01-06 15:17:26,990-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:26,991-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:26,992-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48146)>}
+2020-01-06 15:17:26,994-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48148, fd:10
+2020-01-06 15:17:27,192-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:27,192-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:27,195-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48148)>}
+2020-01-06 15:17:27,199-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48150, fd:10
+2020-01-06 15:17:27,391-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:27,392-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:27,392-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48150)>}
+2020-01-06 15:17:27,394-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48152, fd:10
+2020-01-06 15:17:27,595-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:27,602-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:27,603-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48152)>}
+2020-01-06 15:17:27,605-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48154, fd:10
+2020-01-06 15:17:27,796-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:17:27,796-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:17:27,797-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48154)>}
+2020-01-06 15:17:27,799-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48156, fd:10
+2020-01-06 15:20:49,712-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:20:49,715-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:20:53,580-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48386, fd:10
+2020-01-06 15:20:57,518-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:20:57,519-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:20:57,520-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:20:57,520-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:20:57,524-ERROR-presenter_socket_server.py:249 receive socket error.
+2020-01-06 15:20:57,525-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:20:57,526-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:20:57,527-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:20:57,527-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48392, fd:10
+2020-01-06 15:20:57,527-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:20:57,720-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:20:57,720-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:20:57,720-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48392)>}
+2020-01-06 15:20:57,722-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48394, fd:10
+2020-01-06 15:20:57,921-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:20:57,922-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:20:57,923-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48394)>}
+2020-01-06 15:20:57,925-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48396, fd:10
+2020-01-06 15:20:58,121-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:20:58,124-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:20:58,126-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48396)>}
+2020-01-06 15:20:58,127-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48398, fd:10
+2020-01-06 15:20:58,323-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:20:58,323-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:20:58,323-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48398)>}
+2020-01-06 15:20:58,327-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48400, fd:10
+2020-01-06 15:20:58,523-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:20:58,523-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:20:58,523-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48400)>}
+2020-01-06 15:20:58,524-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48402, fd:10
+2020-01-06 15:20:58,723-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:20:58,723-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:20:58,724-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48402)>}
+2020-01-06 15:20:58,726-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48404, fd:10
+2020-01-06 15:20:58,924-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:20:58,925-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:20:58,927-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48404)>}
+2020-01-06 15:20:58,928-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48406, fd:10
+2020-01-06 15:20:59,127-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:20:59,128-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:20:59,129-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48406)>}
+2020-01-06 15:20:59,130-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48408, fd:10
+2020-01-06 15:20:59,329-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:20:59,331-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:20:59,332-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48408)>}
+2020-01-06 15:20:59,334-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48410, fd:10
+2020-01-06 15:20:59,528-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:20:59,528-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:20:59,528-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48410)>}
+2020-01-06 15:20:59,529-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48412, fd:10
+2020-01-06 15:20:59,729-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:20:59,729-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:20:59,730-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48412)>}
+2020-01-06 15:20:59,731-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48414, fd:10
+2020-01-06 15:20:59,929-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:20:59,929-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:20:59,930-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48414)>}
+2020-01-06 15:20:59,930-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48416, fd:10
+2020-01-06 15:21:00,130-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:21:00,131-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:21:00,131-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48416)>}
+2020-01-06 15:21:00,131-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48418, fd:10
+2020-01-06 15:21:00,333-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:21:00,333-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:21:00,333-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48418)>}
+2020-01-06 15:21:00,334-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48420, fd:10
+2020-01-06 15:21:00,532-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:21:00,533-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:21:00,533-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48420)>}
+2020-01-06 15:21:00,534-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48422, fd:10
+2020-01-06 15:21:00,735-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:21:00,738-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:21:00,739-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48422)>}
+2020-01-06 15:21:00,740-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48424, fd:10
+2020-01-06 15:21:00,935-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:21:00,935-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:21:00,936-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48424)>}
+2020-01-06 15:21:00,936-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48426, fd:10
+2020-01-06 15:21:01,135-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:21:01,136-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:21:01,136-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48426)>}
+2020-01-06 15:21:01,137-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48428, fd:10
+2020-01-06 15:21:01,336-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:21:01,336-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:21:01,337-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48428)>}
+2020-01-06 15:21:01,337-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48430, fd:10
+2020-01-06 15:23:26,686-ERROR-presenter_socket_server.py:146 socket 10 receive msg head null
+2020-01-06 15:23:26,688-ERROR-presenter_socket_server.py:213 msg_total_len is None.
+2020-01-06 15:23:26,689-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48430)>}
+2020-01-06 15:23:33,477-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:23:33,479-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:23:42,302-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48504, fd:10
+2020-01-06 15:23:45,517-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:23:45,517-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:23:45,519-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:23:45,519-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:23:45,521-ERROR-presenter_socket_server.py:249 receive socket error.
+2020-01-06 15:23:45,521-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:23:45,521-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:23:45,521-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:23:45,522-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48506, fd:10
+2020-01-06 15:23:45,522-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:23:45,720-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:45,721-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:45,722-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48506)>}
+2020-01-06 15:23:45,725-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48508, fd:10
+2020-01-06 15:23:45,919-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:45,919-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:45,920-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48508)>}
+2020-01-06 15:23:45,923-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48510, fd:10
+2020-01-06 15:23:46,120-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:46,121-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:46,122-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48510)>}
+2020-01-06 15:23:46,125-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48512, fd:10
+2020-01-06 15:23:46,321-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:46,322-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:46,323-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48512)>}
+2020-01-06 15:23:46,329-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48514, fd:10
+2020-01-06 15:23:46,521-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:46,522-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:46,524-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48514)>}
+2020-01-06 15:23:46,525-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48516, fd:10
+2020-01-06 15:23:46,723-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:46,723-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:46,725-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48516)>}
+2020-01-06 15:23:46,726-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48518, fd:10
+2020-01-06 15:23:46,927-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:46,928-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:46,929-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48518)>}
+2020-01-06 15:23:46,932-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48520, fd:10
+2020-01-06 15:23:47,127-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:47,128-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:47,129-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48520)>}
+2020-01-06 15:23:47,132-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48522, fd:10
+2020-01-06 15:23:47,329-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:47,329-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:47,329-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48522)>}
+2020-01-06 15:23:47,330-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48524, fd:10
+2020-01-06 15:23:47,528-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:47,529-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:47,530-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48524)>}
+2020-01-06 15:23:47,532-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48526, fd:10
+2020-01-06 15:23:47,728-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:47,729-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:47,730-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48526)>}
+2020-01-06 15:23:47,732-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48528, fd:10
+2020-01-06 15:23:47,929-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:47,930-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:47,930-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48528)>}
+2020-01-06 15:23:47,933-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48530, fd:10
+2020-01-06 15:23:48,131-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:48,131-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:48,135-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48530)>}
+2020-01-06 15:23:48,136-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48532, fd:10
+2020-01-06 15:23:48,330-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:48,331-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:48,331-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48532)>}
+2020-01-06 15:23:48,332-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48534, fd:10
+2020-01-06 15:23:48,532-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:48,532-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:48,532-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48534)>}
+2020-01-06 15:23:48,534-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48536, fd:10
+2020-01-06 15:23:48,733-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:48,733-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:48,734-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48536)>}
+2020-01-06 15:23:48,734-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48538, fd:10
+2020-01-06 15:23:48,934-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:48,935-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:48,936-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48538)>}
+2020-01-06 15:23:48,938-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48540, fd:10
+2020-01-06 15:23:49,135-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:49,135-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:49,135-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48540)>}
+2020-01-06 15:23:49,136-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48542, fd:10
+2020-01-06 15:23:49,335-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:23:49,336-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:23:49,336-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48542)>}
+2020-01-06 15:23:49,338-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48544, fd:10
+2020-01-06 15:35:18,668-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:35:18,671-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:35:27,094-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48734, fd:10
+2020-01-06 15:35:29,110-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:35:29,110-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:35:29,111-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:35:29,111-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:35:29,113-ERROR-presenter_socket_server.py:249 receive socket error.
+2020-01-06 15:35:29,113-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:35:29,114-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:35:29,114-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:35:29,115-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48736, fd:10
+2020-01-06 15:35:29,116-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:35:29,312-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:29,312-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:29,312-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48736)>}
+2020-01-06 15:35:29,313-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48738, fd:10
+2020-01-06 15:35:29,512-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:29,512-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:29,512-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48738)>}
+2020-01-06 15:35:29,512-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48740, fd:10
+2020-01-06 15:35:29,713-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:29,714-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:29,714-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48740)>}
+2020-01-06 15:35:29,715-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48742, fd:10
+2020-01-06 15:35:29,915-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:29,916-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:29,916-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48742)>}
+2020-01-06 15:35:29,917-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48744, fd:10
+2020-01-06 15:35:30,116-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:30,117-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:30,118-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48744)>}
+2020-01-06 15:35:30,127-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48746, fd:10
+2020-01-06 15:35:30,318-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:30,319-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:30,324-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48746)>}
+2020-01-06 15:35:30,326-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48748, fd:10
+2020-01-06 15:35:30,518-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:30,518-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:30,519-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48748)>}
+2020-01-06 15:35:30,521-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48750, fd:10
+2020-01-06 15:35:30,718-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:30,718-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:30,718-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48750)>}
+2020-01-06 15:35:30,719-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48752, fd:10
+2020-01-06 15:35:30,920-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:30,921-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:30,921-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48752)>}
+2020-01-06 15:35:30,923-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48754, fd:10
+2020-01-06 15:35:31,120-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:31,121-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:31,121-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48754)>}
+2020-01-06 15:35:31,124-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48756, fd:10
+2020-01-06 15:35:31,320-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:31,321-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:31,321-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48756)>}
+2020-01-06 15:35:31,323-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48758, fd:10
+2020-01-06 15:35:31,528-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:31,529-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:31,530-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48758)>}
+2020-01-06 15:35:31,532-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48760, fd:10
+2020-01-06 15:35:31,729-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:31,729-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:31,729-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48760)>}
+2020-01-06 15:35:31,730-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48762, fd:10
+2020-01-06 15:35:31,931-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:31,932-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:31,933-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48762)>}
+2020-01-06 15:35:31,937-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48764, fd:10
+2020-01-06 15:35:32,131-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:32,131-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:32,132-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48764)>}
+2020-01-06 15:35:32,134-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48766, fd:10
+2020-01-06 15:35:32,334-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:32,335-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:32,335-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48766)>}
+2020-01-06 15:35:32,339-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48768, fd:10
+2020-01-06 15:35:32,533-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:32,534-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:32,535-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48768)>}
+2020-01-06 15:35:32,537-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48770, fd:10
+2020-01-06 15:35:32,734-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:32,735-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:32,736-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48770)>}
+2020-01-06 15:35:32,739-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48772, fd:10
+2020-01-06 15:35:32,934-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:35:32,934-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:35:32,935-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48772)>}
+2020-01-06 15:35:32,935-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48774, fd:10
+2020-01-06 15:35:53,779-ERROR-presenter_socket_server.py:146 socket 10 receive msg head null
+2020-01-06 15:35:53,780-ERROR-presenter_socket_server.py:213 msg_total_len is None.
+2020-01-06 15:35:53,780-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48774)>}
+2020-01-06 15:38:00,040-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:38:00,040-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:38:06,614-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48832, fd:10
+2020-01-06 15:38:14,073-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:38:14,074-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:38:14,075-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:38:14,076-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:38:14,081-ERROR-presenter_socket_server.py:249 receive socket error.
+2020-01-06 15:38:14,082-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:38:14,082-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:38:14,082-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:38:14,083-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48840, fd:10
+2020-01-06 15:38:14,083-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:38:14,275-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:14,277-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:14,280-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48840)>}
+2020-01-06 15:38:14,285-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48842, fd:10
+2020-01-06 15:38:14,476-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:14,476-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:14,477-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48842)>}
+2020-01-06 15:38:14,479-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48844, fd:10
+2020-01-06 15:38:14,677-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:14,678-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:14,679-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48844)>}
+2020-01-06 15:38:14,682-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48846, fd:10
+2020-01-06 15:38:14,879-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:14,880-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:14,884-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48846)>}
+2020-01-06 15:38:14,889-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48848, fd:10
+2020-01-06 15:38:15,080-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:15,081-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:15,082-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48848)>}
+2020-01-06 15:38:15,085-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48850, fd:10
+2020-01-06 15:38:15,282-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:15,283-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:15,288-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48850)>}
+2020-01-06 15:38:15,294-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48852, fd:10
+2020-01-06 15:38:15,484-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:15,485-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:15,486-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48852)>}
+2020-01-06 15:38:15,488-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48854, fd:10
+2020-01-06 15:38:15,684-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:15,684-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:15,684-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48854)>}
+2020-01-06 15:38:15,685-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48856, fd:10
+2020-01-06 15:38:15,888-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:15,889-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:15,890-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48856)>}
+2020-01-06 15:38:15,892-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48858, fd:10
+2020-01-06 15:38:16,087-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:16,088-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:16,089-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48858)>}
+2020-01-06 15:38:16,092-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48860, fd:10
+2020-01-06 15:38:16,286-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:16,287-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:16,287-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48860)>}
+2020-01-06 15:38:16,287-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48862, fd:10
+2020-01-06 15:38:16,496-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:16,497-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:16,498-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48862)>}
+2020-01-06 15:38:16,501-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48864, fd:10
+2020-01-06 15:38:16,691-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:16,692-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:16,695-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48864)>}
+2020-01-06 15:38:16,696-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48866, fd:10
+2020-01-06 15:38:16,889-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:16,889-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:16,890-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48866)>}
+2020-01-06 15:38:16,890-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48868, fd:10
+2020-01-06 15:38:17,091-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:17,093-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:17,093-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48868)>}
+2020-01-06 15:38:17,095-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48870, fd:10
+2020-01-06 15:38:17,295-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:17,296-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:17,296-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48870)>}
+2020-01-06 15:38:17,299-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48872, fd:10
+2020-01-06 15:38:17,493-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:17,494-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:17,494-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48872)>}
+2020-01-06 15:38:17,495-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48874, fd:10
+2020-01-06 15:38:17,693-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:17,694-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:17,694-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48874)>}
+2020-01-06 15:38:17,695-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48876, fd:10
+2020-01-06 15:38:17,896-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:17,897-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:17,898-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48876)>}
+2020-01-06 15:38:17,900-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48878, fd:10
+2020-01-06 15:38:50,727-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:38:50,728-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:38:54,410-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48888, fd:10
+2020-01-06 15:38:57,082-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:38:57,082-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:38:57,082-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:38:57,083-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:38:57,084-ERROR-presenter_socket_server.py:249 receive socket error.
+2020-01-06 15:38:57,084-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:38:57,084-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:38:57,084-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:38:57,084-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:38:57,084-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48890, fd:10
+2020-01-06 15:38:57,282-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:57,282-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:57,282-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48890)>}
+2020-01-06 15:38:57,283-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48892, fd:10
+2020-01-06 15:38:57,486-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:57,487-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:57,488-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48892)>}
+2020-01-06 15:38:57,490-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48894, fd:10
+2020-01-06 15:38:57,687-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:57,688-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:57,689-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48894)>}
+2020-01-06 15:38:57,695-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48896, fd:10
+2020-01-06 15:38:57,889-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:57,890-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:57,891-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48896)>}
+2020-01-06 15:38:57,893-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48898, fd:10
+2020-01-06 15:38:58,088-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:58,088-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:58,088-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48898)>}
+2020-01-06 15:38:58,089-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48900, fd:10
+2020-01-06 15:38:58,291-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:58,292-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:58,292-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48900)>}
+2020-01-06 15:38:58,298-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48902, fd:10
+2020-01-06 15:38:58,493-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:58,493-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:58,493-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48902)>}
+2020-01-06 15:38:58,494-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48904, fd:10
+2020-01-06 15:38:58,694-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:58,695-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:58,696-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48904)>}
+2020-01-06 15:38:58,698-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48906, fd:10
+2020-01-06 15:38:58,895-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:58,896-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:58,900-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48906)>}
+2020-01-06 15:38:58,903-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48908, fd:10
+2020-01-06 15:38:59,095-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:59,096-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:59,096-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48908)>}
+2020-01-06 15:38:59,097-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48910, fd:10
+2020-01-06 15:38:59,296-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:59,297-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:59,298-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48910)>}
+2020-01-06 15:38:59,299-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48912, fd:10
+2020-01-06 15:38:59,496-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:59,497-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:59,497-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48912)>}
+2020-01-06 15:38:59,497-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48914, fd:10
+2020-01-06 15:38:59,699-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:59,699-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:59,700-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48914)>}
+2020-01-06 15:38:59,701-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48916, fd:10
+2020-01-06 15:38:59,899-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:38:59,899-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:38:59,899-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48916)>}
+2020-01-06 15:38:59,900-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48918, fd:10
+2020-01-06 15:39:00,100-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:39:00,101-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:39:00,105-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48918)>}
+2020-01-06 15:39:00,115-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48920, fd:10
+2020-01-06 15:39:00,299-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:39:00,299-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:39:00,300-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48920)>}
+2020-01-06 15:39:00,300-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48922, fd:10
+2020-01-06 15:39:00,501-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:39:00,502-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:39:00,502-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48922)>}
+2020-01-06 15:39:00,504-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48924, fd:10
+2020-01-06 15:39:00,702-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:39:00,703-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:39:00,706-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48924)>}
+2020-01-06 15:39:00,712-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48926, fd:10
+2020-01-06 15:39:00,902-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:39:00,902-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:39:00,903-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 48926)>}
+2020-01-06 15:39:00,905-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:48928, fd:10
+2020-01-06 15:43:24,470-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:43:24,471-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:46:34,068-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49074, fd:10
+2020-01-06 15:46:36,614-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:46:36,614-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:46:36,614-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:46:36,615-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:46:36,616-ERROR-presenter_socket_server.py:249 receive socket error.
+2020-01-06 15:46:36,616-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:46:36,616-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:46:36,616-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:46:36,616-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49076, fd:10
+2020-01-06 15:46:36,616-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:46:36,815-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:36,815-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:36,815-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49076)>}
+2020-01-06 15:46:36,817-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49078, fd:10
+2020-01-06 15:46:37,015-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:37,016-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:37,016-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49078)>}
+2020-01-06 15:46:37,018-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49080, fd:10
+2020-01-06 15:46:37,217-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:37,219-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:37,220-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49080)>}
+2020-01-06 15:46:37,224-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49082, fd:10
+2020-01-06 15:46:37,416-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:37,417-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:37,417-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49082)>}
+2020-01-06 15:46:37,418-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49084, fd:10
+2020-01-06 15:46:37,619-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:37,620-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:37,620-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49084)>}
+2020-01-06 15:46:37,622-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49086, fd:10
+2020-01-06 15:46:37,821-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:37,822-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:37,825-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49086)>}
+2020-01-06 15:46:37,830-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49088, fd:10
+2020-01-06 15:46:38,022-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:38,023-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:38,023-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49088)>}
+2020-01-06 15:46:38,025-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49090, fd:10
+2020-01-06 15:46:38,223-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:38,224-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:38,225-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49090)>}
+2020-01-06 15:46:38,228-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49092, fd:10
+2020-01-06 15:46:38,424-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:38,425-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:38,425-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49092)>}
+2020-01-06 15:46:38,425-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49094, fd:10
+2020-01-06 15:46:38,625-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:38,626-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:38,627-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49094)>}
+2020-01-06 15:46:38,629-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49096, fd:10
+2020-01-06 15:46:38,827-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:38,828-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:38,828-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49096)>}
+2020-01-06 15:46:38,830-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49098, fd:10
+2020-01-06 15:46:39,029-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:39,030-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:39,030-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49098)>}
+2020-01-06 15:46:39,033-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49100, fd:10
+2020-01-06 15:46:39,230-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:39,230-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:39,231-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49100)>}
+2020-01-06 15:46:39,232-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49102, fd:10
+2020-01-06 15:46:39,431-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:39,431-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:39,432-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49102)>}
+2020-01-06 15:46:39,436-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49106, fd:10
+2020-01-06 15:46:39,632-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:39,635-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:39,638-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49106)>}
+2020-01-06 15:46:39,639-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49112, fd:10
+2020-01-06 15:46:39,831-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:39,831-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:39,831-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49112)>}
+2020-01-06 15:46:39,832-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49114, fd:10
+2020-01-06 15:46:40,032-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:40,033-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:40,034-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49114)>}
+2020-01-06 15:46:40,036-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49116, fd:10
+2020-01-06 15:46:40,237-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:40,237-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:40,240-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49116)>}
+2020-01-06 15:46:40,242-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49118, fd:10
+2020-01-06 15:46:40,434-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:46:40,435-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:46:40,435-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49118)>}
+2020-01-06 15:46:40,435-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49120, fd:10
+2020-01-06 15:48:23,923-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:48:23,926-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:48:26,730-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49148, fd:10
+2020-01-06 15:48:28,304-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:48:28,304-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:48:28,305-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:48:28,305-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:48:28,306-ERROR-presenter_socket_server.py:249 receive socket error.
+2020-01-06 15:48:28,306-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:48:28,307-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:48:28,307-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:48:28,307-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49150, fd:10
+2020-01-06 15:48:28,307-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:48:28,506-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:28,506-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:28,507-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49150)>}
+2020-01-06 15:48:28,508-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49152, fd:10
+2020-01-06 15:48:28,708-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:28,709-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:28,710-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49152)>}
+2020-01-06 15:48:28,711-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49154, fd:10
+2020-01-06 15:48:28,910-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:28,911-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:28,912-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49154)>}
+2020-01-06 15:48:28,915-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49156, fd:10
+2020-01-06 15:48:29,110-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:29,111-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:29,112-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49156)>}
+2020-01-06 15:48:29,119-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49158, fd:10
+2020-01-06 15:48:29,311-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:29,312-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:29,312-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49158)>}
+2020-01-06 15:48:29,312-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49160, fd:10
+2020-01-06 15:48:29,514-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:29,515-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:29,519-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49160)>}
+2020-01-06 15:48:29,524-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49162, fd:10
+2020-01-06 15:48:29,714-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:29,714-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:29,715-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49162)>}
+2020-01-06 15:48:29,717-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49164, fd:10
+2020-01-06 15:48:29,914-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:29,914-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:29,914-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49164)>}
+2020-01-06 15:48:29,915-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49166, fd:10
+2020-01-06 15:48:30,118-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:30,119-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:30,122-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49166)>}
+2020-01-06 15:48:30,126-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49168, fd:10
+2020-01-06 15:48:30,318-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:30,318-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:30,319-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49168)>}
+2020-01-06 15:48:30,321-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49170, fd:10
+2020-01-06 15:48:30,518-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:30,518-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:30,519-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49170)>}
+2020-01-06 15:48:30,520-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49172, fd:10
+2020-01-06 15:48:30,722-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:30,724-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:30,725-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49172)>}
+2020-01-06 15:48:30,726-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49174, fd:10
+2020-01-06 15:48:30,921-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:30,921-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:30,922-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49174)>}
+2020-01-06 15:48:30,923-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49176, fd:10
+2020-01-06 15:48:31,122-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:31,123-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:31,124-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49176)>}
+2020-01-06 15:48:31,126-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49178, fd:10
+2020-01-06 15:48:31,327-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:31,327-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:31,328-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49178)>}
+2020-01-06 15:48:31,332-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49180, fd:10
+2020-01-06 15:48:31,523-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:31,523-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:31,523-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49180)>}
+2020-01-06 15:48:31,524-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49182, fd:10
+2020-01-06 15:48:31,724-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:31,725-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:31,726-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49182)>}
+2020-01-06 15:48:31,729-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49184, fd:10
+2020-01-06 15:48:31,927-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:31,928-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:31,928-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49184)>}
+2020-01-06 15:48:31,929-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49186, fd:10
+2020-01-06 15:48:32,127-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:48:32,128-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:48:32,129-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49186)>}
+2020-01-06 15:48:32,130-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49188, fd:10
+2020-01-06 15:50:38,789-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:50:38,791-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:50:42,272-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49242, fd:10
+2020-01-06 15:50:44,004-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:50:44,004-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:50:44,005-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:50:44,007-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:50:44,008-ERROR-presenter_socket_server.py:249 receive socket error.
+2020-01-06 15:50:44,008-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:50:44,009-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:50:44,010-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:50:44,011-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:50:44,012-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49244, fd:10
+2020-01-06 15:50:44,205-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:44,206-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:44,206-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49244)>}
+2020-01-06 15:50:44,207-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49246, fd:10
+2020-01-06 15:50:44,406-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:44,406-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:44,406-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49246)>}
+2020-01-06 15:50:44,406-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49250, fd:10
+2020-01-06 15:50:44,607-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:44,608-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:44,608-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49250)>}
+2020-01-06 15:50:44,610-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49252, fd:10
+2020-01-06 15:50:44,807-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:44,807-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:44,807-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49252)>}
+2020-01-06 15:50:44,807-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49254, fd:10
+2020-01-06 15:50:45,008-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:45,010-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:45,011-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49254)>}
+2020-01-06 15:50:45,014-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49256, fd:10
+2020-01-06 15:50:45,209-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:45,209-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:45,210-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49256)>}
+2020-01-06 15:50:45,212-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49258, fd:10
+2020-01-06 15:50:45,410-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:45,410-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:45,411-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49258)>}
+2020-01-06 15:50:45,412-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49260, fd:10
+2020-01-06 15:50:45,613-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:45,613-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:45,616-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49260)>}
+2020-01-06 15:50:45,617-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49262, fd:10
+2020-01-06 15:50:45,812-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:45,812-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:45,812-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49262)>}
+2020-01-06 15:50:45,814-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49264, fd:10
+2020-01-06 15:50:46,012-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:46,012-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:46,012-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49264)>}
+2020-01-06 15:50:46,013-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49266, fd:10
+2020-01-06 15:50:46,215-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:46,215-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:46,216-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49266)>}
+2020-01-06 15:50:46,217-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49268, fd:10
+2020-01-06 15:50:46,416-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:46,416-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:46,419-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49268)>}
+2020-01-06 15:50:46,423-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49270, fd:10
+2020-01-06 15:50:46,616-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:46,617-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:46,617-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49270)>}
+2020-01-06 15:50:46,618-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49272, fd:10
+2020-01-06 15:50:46,816-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:46,816-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:46,817-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49272)>}
+2020-01-06 15:50:46,817-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49274, fd:10
+2020-01-06 15:50:47,021-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:47,022-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:47,023-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49274)>}
+2020-01-06 15:50:47,024-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49276, fd:10
+2020-01-06 15:50:47,221-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:47,222-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:47,222-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49276)>}
+2020-01-06 15:50:47,223-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49278, fd:10
+2020-01-06 15:50:47,422-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:47,423-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:47,423-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49278)>}
+2020-01-06 15:50:47,424-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49280, fd:10
+2020-01-06 15:50:47,623-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:47,623-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:47,623-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49280)>}
+2020-01-06 15:50:47,624-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49282, fd:10
+2020-01-06 15:50:47,824-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:50:47,824-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:50:47,825-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49282)>}
+2020-01-06 15:50:47,826-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49284, fd:10
+2020-01-06 15:51:25,332-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:51:25,333-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:51:28,659-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49296, fd:10
+2020-01-06 15:51:30,492-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:51:30,492-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:51:30,492-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:51:30,492-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:51:30,493-ERROR-presenter_socket_server.py:249 receive socket error.
+2020-01-06 15:51:30,493-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:51:30,494-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:51:30,494-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:51:30,494-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49298, fd:10
+2020-01-06 15:51:30,494-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:51:30,694-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:30,695-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:30,695-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49298)>}
+2020-01-06 15:51:30,696-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49300, fd:10
+2020-01-06 15:51:30,893-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:30,894-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:30,894-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49300)>}
+2020-01-06 15:51:30,895-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49302, fd:10
+2020-01-06 15:51:31,095-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:31,096-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:31,097-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49302)>}
+2020-01-06 15:51:31,098-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49304, fd:10
+2020-01-06 15:51:31,295-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:31,296-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:31,296-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49304)>}
+2020-01-06 15:51:31,296-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49306, fd:10
+2020-01-06 15:51:31,496-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:31,496-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:31,496-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49306)>}
+2020-01-06 15:51:31,497-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49308, fd:10
+2020-01-06 15:51:31,698-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:31,699-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:31,700-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49308)>}
+2020-01-06 15:51:31,702-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49310, fd:10
+2020-01-06 15:51:31,898-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:31,898-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:31,898-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49310)>}
+2020-01-06 15:51:31,899-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49314, fd:10
+2020-01-06 15:51:32,097-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:32,098-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:32,098-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49314)>}
+2020-01-06 15:51:32,098-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49316, fd:10
+2020-01-06 15:51:32,299-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:32,299-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:32,300-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49316)>}
+2020-01-06 15:51:32,301-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49318, fd:10
+2020-01-06 15:51:32,500-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:32,500-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:32,501-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49318)>}
+2020-01-06 15:51:32,501-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49320, fd:10
+2020-01-06 15:51:32,700-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:32,701-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:32,701-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49320)>}
+2020-01-06 15:51:32,701-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49322, fd:10
+2020-01-06 15:51:32,903-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:32,903-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:32,904-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49322)>}
+2020-01-06 15:51:32,905-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49324, fd:10
+2020-01-06 15:51:33,104-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:33,104-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:33,105-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49324)>}
+2020-01-06 15:51:33,106-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49326, fd:10
+2020-01-06 15:51:33,305-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:33,305-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:33,305-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49326)>}
+2020-01-06 15:51:33,306-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49328, fd:10
+2020-01-06 15:51:33,506-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:33,507-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:33,507-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49328)>}
+2020-01-06 15:51:33,509-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49330, fd:10
+2020-01-06 15:51:33,707-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:33,709-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:33,710-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49330)>}
+2020-01-06 15:51:33,713-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49332, fd:10
+2020-01-06 15:51:33,907-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:33,907-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:33,908-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49332)>}
+2020-01-06 15:51:33,908-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49334, fd:10
+2020-01-06 15:51:34,109-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:34,110-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:34,110-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49334)>}
+2020-01-06 15:51:34,111-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49336, fd:10
+2020-01-06 15:51:34,310-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:51:34,311-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:51:34,311-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49336)>}
+2020-01-06 15:51:34,313-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49338, fd:10
+2020-01-06 15:52:02,760-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:52:02,762-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:52:06,886-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49352, fd:10
+2020-01-06 15:52:08,683-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:52:08,684-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:52:08,685-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:52:08,686-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:52:08,883-ERROR-presenter_socket_server.py:249 receive socket error.
+2020-01-06 15:52:08,884-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:52:08,884-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:52:08,884-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:52:08,884-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49354, fd:10
+2020-01-06 15:52:08,884-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:52:09,084-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:09,085-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:09,086-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49354)>}
+2020-01-06 15:52:09,088-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49356, fd:10
+2020-01-06 15:52:09,284-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:09,285-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:09,285-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49356)>}
+2020-01-06 15:52:09,286-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49358, fd:10
+2020-01-06 15:52:09,485-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:09,485-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:09,485-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49358)>}
+2020-01-06 15:52:09,486-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49366, fd:10
+2020-01-06 15:52:09,688-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:09,688-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:09,689-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49366)>}
+2020-01-06 15:52:09,696-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49368, fd:10
+2020-01-06 15:52:09,888-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:09,889-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:09,890-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49368)>}
+2020-01-06 15:52:09,899-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49370, fd:10
+2020-01-06 15:52:10,089-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:10,089-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:10,091-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49370)>}
+2020-01-06 15:52:10,092-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49372, fd:10
+2020-01-06 15:52:10,289-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:10,290-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:10,290-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49372)>}
+2020-01-06 15:52:10,291-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49374, fd:10
+2020-01-06 15:52:10,491-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:10,492-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:10,493-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49374)>}
+2020-01-06 15:52:10,499-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49376, fd:10
+2020-01-06 15:52:10,691-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:10,692-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:10,692-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49376)>}
+2020-01-06 15:52:10,694-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49378, fd:10
+2020-01-06 15:52:10,892-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:10,892-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:10,893-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49378)>}
+2020-01-06 15:52:10,894-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49380, fd:10
+2020-01-06 15:52:11,094-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:11,095-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:11,096-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49380)>}
+2020-01-06 15:52:11,100-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49382, fd:10
+2020-01-06 15:52:11,294-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:11,294-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:11,295-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49382)>}
+2020-01-06 15:52:11,296-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49384, fd:10
+2020-01-06 15:52:11,495-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:11,495-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:11,495-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49384)>}
+2020-01-06 15:52:11,496-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49386, fd:10
+2020-01-06 15:52:11,697-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:11,698-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:11,703-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49386)>}
+2020-01-06 15:52:11,706-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49388, fd:10
+2020-01-06 15:52:11,897-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:11,898-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:11,898-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49388)>}
+2020-01-06 15:52:11,900-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49390, fd:10
+2020-01-06 15:52:12,098-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:12,098-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:12,098-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49390)>}
+2020-01-06 15:52:12,099-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49392, fd:10
+2020-01-06 15:52:12,301-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:12,304-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:12,306-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49392)>}
+2020-01-06 15:52:12,308-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49394, fd:10
+2020-01-06 15:52:12,502-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:12,503-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:12,504-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49394)>}
+2020-01-06 15:52:12,506-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49396, fd:10
+2020-01-06 15:52:52,531-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:52:52,533-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:52:56,141-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49412, fd:10
+2020-01-06 15:52:58,076-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:52:58,076-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:52:58,076-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:52:58,076-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:52:58,077-INFO-presenter_socket_server.py:293 receive event EPOLLHUP
+2020-01-06 15:52:58,077-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:52:58,077-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:52:58,077-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:52:58,078-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49418, fd:10
+2020-01-06 15:52:58,078-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:52:58,276-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:52:58,277-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:52:58,277-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49418)>}
+2020-01-06 15:53:35,070-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:53:35,071-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:53:39,062-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49430, fd:10
+2020-01-06 15:53:40,847-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:53:40,848-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:53:40,848-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:53:40,848-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:53:40,850-INFO-presenter_socket_server.py:293 receive event EPOLLHUP
+2020-01-06 15:53:40,850-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:53:40,850-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:53:40,850-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:53:40,850-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49438, fd:10
+2020-01-06 15:53:40,850-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:53:41,051-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:53:41,052-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:53:41,054-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49438)>}
+2020-01-06 15:54:28,708-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:54:28,709-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:54:33,550-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49452, fd:10
+2020-01-06 15:54:36,551-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:54:36,551-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:54:36,552-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:54:36,552-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:54:36,752-INFO-presenter_socket_server.py:293 receive event EPOLLHUP
+2020-01-06 15:54:36,753-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 15:54:36,753-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:54:36,753-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:54:36,753-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:54:36,754-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49454, fd:10
+2020-01-06 15:54:36,955-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 15:54:36,956-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 15:54:36,957-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 49454)>}
+2020-01-06 15:54:59,718-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:54:59,719-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:55:04,106-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49464, fd:10
+2020-01-06 15:55:05,713-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:55:05,713-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:55:05,714-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:55:05,715-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 15:56:49,544-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 15:56:49,545-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 15:56:49,546-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 15:59:26,648-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 15:59:26,649-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 15:59:32,095-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49548, fd:10
+2020-01-06 15:59:33,844-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 15:59:33,845-INFO-channel_manager.py:216 register channel: video
+2020-01-06 15:59:33,845-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 15:59:33,845-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 16:01:17,716-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 16:01:17,717-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 16:01:17,717-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 16:03:15,003-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 16:03:15,004-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 16:03:18,978-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49608, fd:10
+2020-01-06 16:03:24,318-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 16:03:24,318-INFO-channel_manager.py:216 register channel: video
+2020-01-06 16:03:24,319-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 16:03:24,319-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 16:04:15,698-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 16:04:15,699-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 16:04:38,092-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49630, fd:10
+2020-01-06 16:04:40,346-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 16:04:40,347-INFO-channel_manager.py:216 register channel: video
+2020-01-06 16:04:40,347-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 16:04:40,347-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 16:06:20,762-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 16:06:20,762-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 16:06:20,762-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 16:08:44,262-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 16:08:44,263-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 16:08:49,250-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49720, fd:10
+2020-01-06 16:08:52,243-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 16:08:52,244-INFO-channel_manager.py:216 register channel: video
+2020-01-06 16:08:52,244-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 16:08:52,245-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 16:10:32,654-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 16:10:32,655-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 16:10:32,656-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 16:12:53,393-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 16:12:53,397-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 16:12:59,747-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49798, fd:10
+2020-01-06 16:13:02,547-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 16:13:02,547-INFO-channel_manager.py:216 register channel: video
+2020-01-06 16:13:02,548-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 16:13:02,548-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 16:14:42,956-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 16:14:42,966-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 16:14:42,967-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 16:22:56,009-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 16:22:56,010-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 16:23:01,323-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:49960, fd:9
+2020-01-06 16:23:03,590-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 16:23:03,590-INFO-channel_manager.py:216 register channel: video
+2020-01-06 16:23:03,591-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 16:23:03,591-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:9, media_type:video
+2020-01-06 16:24:43,999-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 16:24:43,999-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 16:24:44,000-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 16:28:00,015-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 16:28:00,016-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 16:28:06,978-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:50048, fd:10
+2020-01-06 16:28:09,029-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 16:28:09,029-INFO-channel_manager.py:216 register channel: video
+2020-01-06 16:28:09,030-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 16:28:09,030-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 16:29:49,437-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 16:29:49,438-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 16:29:49,439-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 16:38:41,492-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 16:38:41,494-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 16:38:44,789-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:50610, fd:9
+2020-01-06 16:38:46,909-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 16:38:46,909-INFO-channel_manager.py:216 register channel: video
+2020-01-06 16:38:46,910-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 16:38:46,910-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:9, media_type:video
+2020-01-06 16:40:27,323-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 16:40:27,334-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 16:40:27,334-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 16:43:52,109-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 16:43:52,112-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 16:43:55,964-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:51146, fd:10
+2020-01-06 16:43:59,090-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 16:43:59,091-INFO-channel_manager.py:216 register channel: video
+2020-01-06 16:43:59,091-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 16:43:59,091-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 16:45:39,518-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 16:45:39,531-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 16:45:39,532-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 16:46:21,431-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 16:46:21,444-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 16:46:59,825-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:51368, fd:10
+2020-01-06 16:47:02,256-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 16:47:02,257-INFO-channel_manager.py:216 register channel: video
+2020-01-06 16:47:02,257-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 16:47:02,258-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 16:48:42,665-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 16:48:42,666-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 16:48:42,667-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 17:35:29,539-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 17:35:29,551-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 17:35:35,086-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:52208, fd:9
+2020-01-06 17:35:36,739-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 17:35:36,740-INFO-channel_manager.py:216 register channel: video
+2020-01-06 17:35:36,741-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 17:35:36,741-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:9, media_type:video
+2020-01-06 17:35:36,743-ERROR-presenter_socket_server.py:249 receive socket error.
+2020-01-06 17:35:36,743-INFO-faster_rcnn_server.py:60 clean fd:9, conns:{9: <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 17:35:36,745-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 17:35:36,745-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 17:35:36,746-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:52210, fd:9
+2020-01-06 17:35:36,746-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-06 17:35:36,941-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 17:35:36,942-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 17:35:36,943-INFO-faster_rcnn_server.py:60 clean fd:9, conns:{9: <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 17:35:36,945-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:52212, fd:9
+2020-01-06 17:35:37,141-ERROR-faster_rcnn_server.py:185 get channel handler failed
+2020-01-06 17:35:37,143-ERROR-faster_rcnn_server.py:138 Present data not known error.
+2020-01-06 17:35:37,144-INFO-faster_rcnn_server.py:60 clean fd:9, conns:{9: <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006)>}
+2020-01-06 17:35:37,145-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:52214, fd:9
+2020-01-06 17:37:04,083-INFO-faster_rcnn_server.py:233 presenter server is starting...
+2020-01-06 17:37:04,086-INFO-presenter_server.py:79 presenter server starting, type: faster_rcnn
+2020-01-06 17:37:07,915-INFO-presenter_socket_server.py:264 create new connection:client-ip:192.168.3.108, client-port:52242, fd:10
+2020-01-06 17:37:09,894-ERROR-presenter_socket_server.py:366 channel name video is not exist.
+2020-01-06 17:37:09,894-INFO-channel_manager.py:216 register channel: video
+2020-01-06 17:37:09,895-INFO-channel_handler.py:215 create videothread-video...
+2020-01-06 17:37:09,895-INFO-channel_manager.py:127 create channel resource, channel_name:video, channel_fd:10, media_type:video
+2020-01-06 17:38:50,306-INFO-channel_handler.py:124 videothread-video set _close_thread_switch True
+2020-01-06 17:38:50,316-INFO-channel_manager.py:139 clean channel: video's resource
+2020-01-06 17:38:50,317-INFO-channel_handler.py:226 Stop thread:videothread-video.
+2020-01-07 15:32:44,945-ERROR-presenter_socket_server.py:146 socket 10 receive msg head null
+2020-01-07 15:32:45,030-ERROR-presenter_socket_server.py:213 msg_total_len is None.
+2020-01-07 15:32:45,031-INFO-faster_rcnn_server.py:60 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.3.108', 7006), raddr=('192.168.3.108', 52242)>}
