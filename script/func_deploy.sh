@@ -117,23 +117,23 @@ function deploy_app_lib_path()
     remote_host=$3
     model_dir=$4
     
-    iRet=`IDE-daemon-client --host ${remote_host}:${remote_port} --hostcmd "rm -rf ~/HIAI_PROJECTS/python_fasterrcnn"`
+    iRet=`IDE-daemon-client --host ${remote_host}:${remote_port} --hostcmd "rm -rf ~/HIAI_PROJECTS/fasterrcnnapp"`
     if [[ $? -ne 0 ]];then
-        echo "ERROR: delete ${remote_host}:~/HIAI_PROJECTS/python_fasterrcnn/* failed, please check /var/log/syslog for details."
+        echo "ERROR: delete ${remote_host}:~/HIAI_PROJECTS/fasterrcnnapp/* failed, please check /var/log/syslog for details."
         return 1
     fi
 
-    upload_path ${app_path}/${app_name} "~/HIAI_PROJECTS/python_fasterrcnn"
+    upload_path ${app_path}/${app_name} "~/HIAI_PROJECTS/fasterrcnnapp"
     if [[ $? -ne 0 ]];then
         return 1
     fi
-    upload_path ${app_path}/${model_dir} "~/HIAI_PROJECTS/python_fasterrcnn"
+    upload_path ${app_path}/${model_dir} "~/HIAI_PROJECTS/fasterrcnnapp"
     if [[ $? -ne 0 ]];then
         return 1
     fi
-    iRet=`IDE-daemon-client --host ${remote_host}:${remote_port} --hostcmd "chmod +x ~/HIAI_PROJECTS/python_fasterrcnn"`
+    iRet=`IDE-daemon-client --host ${remote_host}:${remote_port} --hostcmd "chmod +x ~/HIAI_PROJECTS/fasterrcnnapp"`
     if [[ $? -ne 0 ]];then
-        echo "ERROR: change excution mode ${remote_host}:~/HIAI_PROJECTS/python_fasterrcnn/* failed, please check /var/log/syslog for details."
+        echo "ERROR: change excution mode ${remote_host}:~/HIAI_PROJECTS/fasterrcnnapp/* failed, please check /var/log/syslog for details."
         return 1
     fi
 }

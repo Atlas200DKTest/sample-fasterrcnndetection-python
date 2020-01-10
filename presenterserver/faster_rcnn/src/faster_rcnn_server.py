@@ -42,7 +42,7 @@ from common.presenter_socket_server import PresenterSocketServer
 from faster_rcnn.src.config_parser import ConfigParser
 
 class FaceDetectionServer(PresenterSocketServer):
-    '''A server for face detection'''
+    '''A server for fasterrcnn detection'''
     def __init__(self, server_address):
         '''init func'''
         self.channel_manager = ChannelManager(["image", "video"])
@@ -80,15 +80,12 @@ class FaceDetectionServer(PresenterSocketServer):
         """
         # process open channel request
         if msg_name == pb2._OPENCHANNELREQUEST.full_name:
-            print('处理打开通道')
             ret = self._process_open_channel(conn, msg_data)
         # process image request, receive an image data from presenter agent
         elif msg_name == pb2._PRESENTIMAGEREQUEST.full_name:
-            print('处理图像请求')
             ret = self._process_image_request(conn, msg_data)
         # process heartbeat request, it used to keepalive a channel path
         elif msg_name == pb2._HEARTBEATMESSAGE.full_name:
-            print('处理心跳请求')
             ret = self._process_heartbeat(conn)
         else:
             logging.error("Not recognized msg type %s", msg_name)
@@ -169,32 +166,26 @@ class FaceDetectionServer(PresenterSocketServer):
 
         # Parse msg_data from protobuf
         try:
-            print('正在从protobuf解析数据')
             request.ParseFromString(msg_data)
         except DecodeError:
-            print("ParseFromString exception: Error parsing message")
             logging.error("ParseFromString exception: Error parsing message")
             err_code = pb2.kPresentDataErrorOther
             return self._response_image_request(conn, response, err_code)
 
         sock_fileno = conn.fileno()
-        print('sock_fileno:', sock_fileno)
         handler = self.channel_manager.get_channel_handler_by_fd(sock_fileno)
         if handler is None:
-            print('"get channel handler failed"')
             logging.error("get channel handler failed")
             err_code = pb2.kPresentDataErrorOther
             return self._response_image_request(conn, response, err_code)
 
         # Currently, image format only support jpeg
         if request.format != pb2.kImageFormatJpeg:
-            print("image format %s not support" % request.format)
             logging.error("image format %s not support", request.format)
             err_code = pb2.kPresentDataErrorUnsupportedFormat
             return self._response_image_request(conn, response, err_code)
 
         self.send_message(conn,request,pb2._PRESENTIMAGEREQUEST.full_name)
-        print('--------------------------------------------',pb2._PRESENTIMAGEREQUEST.full_name,request.width,request.height)
 
         rectangle_list = []
         if request.rectangle_list:

@@ -81,7 +81,7 @@ function main()
         exit 1
     fi
     
-    echo "Finish to prepare facedetectionapp graph."
+    echo "Finish to prepare fasterrcnnapp graph."
     exit 0
 }
 

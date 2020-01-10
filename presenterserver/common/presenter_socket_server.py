@@ -97,7 +97,6 @@ class PresenterSocketServer():
         threading.Thread(target=self._server_listen_thread).start()
 
         # Display directly on the screen
-        print('Presenter socket server listen on %s:%s\n' % (host, port))
 
     def set_exit_switch(self):
         """set switch True to stop presenter socket server thread."""
@@ -120,7 +119,6 @@ class PresenterSocketServer():
         while has_read_len != read_len:
             try:
                 read_buf = conn.recv(read_len - has_read_len)
-                # print(read_buf)
             except socket.error:
                 logging.error("socket %u exception:socket.error", conn.fileno())
                 return False, None
@@ -141,7 +139,7 @@ class PresenterSocketServer():
             msg_name_len: message name length.
         '''
         ret, msg_head = self._read_socket(conns[sock_fileno], self.msg_head_len)
-        print('消息头数据：', msg_head)
+        #print('消息头数据：', msg_head)
         if not ret:
             logging.error("socket %u receive msg head null", sock_fileno)
             return None, None
@@ -150,8 +148,8 @@ class PresenterSocketServer():
         msg_head_data = struct.Struct('IB')
         (msg_total_len, msg_name_len) = msg_head_data.unpack(msg_head)
         msg_total_len = socket.ntohl(msg_total_len)
-        print('消息总长度:',msg_total_len)
-        print('消息名长度：', msg_name_len)
+        #print('消息总长度:',msg_total_len)
+        #print('消息名长度：', msg_name_len)
         return msg_total_len, msg_name_len
 
     def _read_msg_name(self, sock_fd, conns, msg_name_len):
@@ -165,13 +163,13 @@ class PresenterSocketServer():
             msg_name: message name.
         '''
         ret, msg_name = self._read_socket(conns[sock_fd], msg_name_len)
-        print('直接读取消息名：', msg_name)
+        #print('直接读取消息名：', msg_name)
         if not ret:
             logging.error("socket %u receive msg name null", sock_fd)
             return False, None
         try:
             msg_name = msg_name.decode("utf-8")
-            print('解码的消息名：', msg_name)
+            #print('解码的消息名：', msg_name)
         except UnicodeDecodeError:
             logging.error("msg name decode to utf-8 error")
             return False, None
@@ -188,7 +186,7 @@ class PresenterSocketServer():
         Returns:
             ret: True or False
         '''
-        print('读取消息体时候的长度：', msg_body_len)
+        #print('读取消息体时候的长度：', msg_body_len)
         ret, msg_body = self._read_socket(conns[sock_fd], msg_body_len)
         if not ret:
             logging.error("socket %u receive msg body null", sock_fd)
@@ -209,7 +207,7 @@ class PresenterSocketServer():
         # Step1: read msg head
         msg_total_len, msg_name_len = self._read_msg_head(sock_fileno, conns)
         if msg_total_len is None:
-            print('msg_total_len is None.')
+            #print('msg_total_len is None.')
             logging.error("msg_total_len is None.")
             return False
 
@@ -349,20 +347,20 @@ class PresenterSocketServer():
         response = pb2.OpenChannelResponse()
 
         try:
-            print('ParseFromString start')
+            #print('ParseFromString start')
             request.ParseFromString(msg_data)
         except DecodeError:
-            print('ParseFromString exception: Error parsing message')
+            #print('ParseFromString exception: Error parsing message')
             logging.error("ParseFromString exception: Error parsing message")
             channel_name = "unknown channel"
             return self._response_open_channel(conn, channel_name, response,
                                                pb2.kOpenChannelErrorOther)
-        print('解析的channel_name:', request.channel_name)
+        #print('解析的channel_name:', request.channel_name)
         channel_name = request.channel_name
 
         # check channel name if exist
         if not self.channel_manager.is_channel_exist(channel_name):
-            print('channel name %s is not exist.' % channel_name)
+            #print('channel name %s is not exist.' % channel_name)
             logging.error("channel name %s is not exist.", channel_name)
             # if channel is not exist, need to create the channel
             ret = self.channel_manager.register_one_channel(channel_name)
@@ -395,7 +393,7 @@ class PresenterSocketServer():
                                                pb2.kOpenChannelErrorOther)
 
         handler = ChannelHandler(channel_name, media_type)
-        print('open channel conn.fileno()', conn.fileno())
+        #print('open channel conn.fileno()', conn.fileno())
         self.channel_manager.create_channel_resource(
             channel_name, conn.fileno(), media_type, handler)
 
@@ -470,7 +468,7 @@ class PresenterSocketServer():
 
         msg_name_size = len(msg_name)
         msg_total_size = self.msg_head_len + msg_name_size + message_len
-        print('msg_total_size is:',msg_total_size)
+        #print('msg_total_size is:',msg_total_size)
         # in Struct(), 'I' is unsigned int, 'B' is unsigned char
         s = struct.Struct('IB')
         msg_head = (socket.htonl(msg_total_size), msg_name_size)

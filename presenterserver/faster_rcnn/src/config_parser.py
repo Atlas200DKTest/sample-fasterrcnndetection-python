@@ -30,7 +30,7 @@
 #   =======================================================================
 #
 
-"""face detection config parser module"""
+"""fasterrcnn detection config parser module"""
 
 import os
 import configparser

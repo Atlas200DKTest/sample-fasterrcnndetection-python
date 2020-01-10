@@ -460,7 +460,7 @@ def start_webapp():
     http_server.listen(config.web_server_port, address=config.web_server_ip)
 
     print("Please visit http://" + config.web_server_ip + ":" +
-          str(config.web_server_port) + " for face detection")
+          str(config.web_server_port) + " for fasterrcnn detection")
     tornado.ioloop.IOLoop.instance().start()
 
 

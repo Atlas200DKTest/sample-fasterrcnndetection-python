@@ -46,7 +46,7 @@ class detectionInference(object):
         nntensorList = hiai.NNTensorList(datalist)
         #print('nntensorList', nntensorList)
         resultList = self.model.Inference(self.graph, nntensorList)
-        print('inference over')
+        #print('inference over')
         return resultList
 
     def GetDetectionInfo(self,resultList):
