@@ -264,7 +264,7 @@
 
 3.  执行应用程序。
 
-    **python main.py **_channel_
+    **python main.py** _channel_
 
     -   _channel__:_  输入的视频文件名或者RTSP流地址
 
