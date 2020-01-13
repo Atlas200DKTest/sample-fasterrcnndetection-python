@@ -41,7 +41,7 @@ main()
         exit 1
     fi
 
-    echo "Finish to deploy facedetectionapp."
+    echo "Finish to deploy fasterrcnnapp."
     exit 0
 }
 
