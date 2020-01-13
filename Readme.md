@@ -56,7 +56,7 @@
 
     3.  单击OK开始转换模型。
 
-        1.1.0.0和1.3.0.0版本模型转换成功后，后缀为.om的离线模型存放地址为**：$HOME/tools/che/model-zoo/my-model/xxx**。
+        1.3.0.0版本模型转换成功后，后缀为.om的离线模型存放地址为**：$HOME/tools/che/model-zoo/my-model/xxx**。
 
         1.31.0.0及以上版本模型转换成功后，后缀为.om的离线模型存放地址为**：$HOME/modelzoo/xxx/device/xxx.om**。
 
@@ -66,14 +66,24 @@
 
     **vim \~/.bashrc**
 
-    执行如下命令在最后一行添加DDK\_HOME及LD\_LIBRARY\_PATH的环境变量。
+    1.  1.3.0.0版本执行如下命令在最后一行添加DDK\_HOME及LD\_LIBRARY\_PATH的环境变量。
 
-    **export DDK\_HOME=/home/XXX/tools/che/ddk/ddk**
+        **export DDK\_HOME=/home/XXX/tools/che/ddk/ddk**
 
-    **export LD\_LIBRARY\_PATH=$DDK\_HOME/uihost/lib**
+        **export LD\_LIBRARY\_PATH=$DDK\_HOME/uihost/lib**
+    2.  1.31.0.0及以上版本执行如下命令在最后一行添加环境变量。
+
+         **export tools\_version=_1.31.X.X_**
+
+         **export DDK\_HOME=$HOME/.mindstudio/huawei/ddk/_1.31.X.X_/ddk**
+
+         **export NPU\_DEVICE\_LIB=$DDK\_HOME/../RC/host-aarch64\_Ubuntu16.04.3/lib**
+
+         **export LD\_LIBRARY\_PATH=$DDK\_HOME/lib/x86\_64-linux-gcc5.4**
 
     >![](public_sys-resources/icon-note.gif) **说明：**   
-    >-   XXX为Mind Studio安装用户，/home/XXX/tools为DDK默认安装路径。  
+    >-   1.3.0.0版本环境变量设置时XXX为Mind Studio安装用户，/home/XXX/tools为DDK默认安装路径。 
+    >-   1.31.0.0及以上版本环境变量设置时1.31.X.X为DDK版本号，可以通过安装的DDK的包名获取，如DDK包的包名为Ascend\_DDK-1.31.T15.B150-1.1.1-x86_64.ubuntu16.04.tar.gz，则此DDK的版本号为1.31.T15.B150。
     >-   如果此环境变量已经添加，则此步骤可跳过。  
 
     输入:wq!保存退出。
