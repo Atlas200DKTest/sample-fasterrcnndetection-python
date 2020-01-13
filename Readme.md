@@ -164,7 +164,7 @@
 
         执行脚本安装hiai，hiai的安装脚本可以在码云的tools仓中获取，将脚本内容复制到开发板中。
 
-        安装脚本路径：**https://gitee.com/HuaweiAscend/tools/blob/master/python2\_hiai\_install.sh**。
+        安装脚本路径：[https://gitee.com/HuaweiAscend/tools/blob/master/python2\_hiai\_install.sh](https://gitee.com/HuaweiAscend/tools/blob/master/python2)\_hiai\_install.sh)。
 
         在开发板的root用户下执行脚本进行hiai库安装：
 
