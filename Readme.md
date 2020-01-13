@@ -2,8 +2,6 @@
 
 本Application支持运行在Atlas 200 DK上，实现了对faster-rcnn目标检测网络的推理功能并对视频中的物体信息进行预测的功能。
 
-当前分支中的应用适配**1.1.1.0**与**1.3.0.0**版本的[DDK&RunTime](https://ascend.huawei.com/resources)。
-
 ## 前提条件<a name="section137245294533"></a>
 
 部署此Sample前，需要准备好以下环境：
@@ -56,16 +54,11 @@
         -   关闭**Image Format Conversion**。
         -   其他保持默认值。
 
-            **图 1**  faster\_rcnn模型转换配置<a name="fig79252510407"></a>  
-            
-
-            ![](figures/079edda4decb964c3d3b3266e50fedf.png)
-
-            ![](figures/40c43aa7e611627f1f2c62a403b702f.png)
-
     3.  单击OK开始转换模型。
 
-        模型转换成功后，后缀为.om的离线模型存放地址为$HOME/tools/che/model-zoo/my-model/faster\_rcnn。
+        1.1.0.0和1.3.0.0版本模型转换成功后，后缀为.om的离线模型存放地址为**：$HOME/tools/che/model-zoo/my-model/xxx**。
+
+        1.31.0.0及以上版本模型转换成功后，后缀为.om的离线模型存放地址为**：$HOME/modelzoo/xxx/device/xxx.om**。
 
     4.  将转换好的模型文件（.om文件）上传到[步骤1](#li953280133816)中源码所在路径下的“sample-fasterrcnndetection-python/model”目录下。
 
@@ -114,7 +107,7 @@
 
         如[图 开发板interface文件配置](#fig151021334153812)所示，输入:wq!保存退出。
 
-        **图 2**  开发板interface文件配置<a name="fig151021334153812"></a>  
+        **图 1**  开发板interface文件配置<a name="fig151021334153812"></a>  
         ![](figures/开发板interface文件配置.png "开发板interface文件配置")
 
     3.  执行以下命令重启开发板，使配置生效。
@@ -127,7 +120,7 @@
 
         **ifup eth0**
 
-        **图 3**  开发板联网配置成功<a name="fig4366141165015"></a>  
+        **图 2**  开发板联网配置成功<a name="fig4366141165015"></a>  
         ![](figures/开发板联网配置成功.png "开发板联网配置成功")
 
 2.  安装环境依赖。
@@ -169,7 +162,7 @@
 
         安装后如[图 hiai安装成功验证](#fig89761216122414)所示，则为安装成功。
 
-        **图 4**  hiai安装成功验证<a name="fig89761216122414"></a>  
+        **图 3**  hiai安装成功验证<a name="fig89761216122414"></a>  
         ![](figures/hiai安装成功验证.png "hiai安装成功验证")
 
 3.  安装opencv。
@@ -182,7 +175,7 @@
 
     安装后如[图 opencv安装成功验证](#fig1478418313328)所示，则为安装成功。
 
-    **图 5**  opencv安装成功验证<a name="fig1478418313328"></a>  
+    **图 4**  opencv安装成功验证<a name="fig1478418313328"></a>  
     ![](figures/opencv安装成功验证.png "opencv安装成功验证")
 
 
@@ -203,7 +196,7 @@
 
     如[图 工程部署示意图](#fig184321447181017)所示，请在“Current environment valid ip list“中选择通过浏览器访问Presenter Server服务使用的IP地址。
 
-    **图 6**  工程部署示意图<a name="fig184321447181017"></a>  
+    **图 5**  工程部署示意图<a name="fig184321447181017"></a>  
     
 
     ![](figures/zh-cn_image_0218571099.png)
@@ -219,17 +212,17 @@
 
     如[图 Presenter Server进程启动](#fig69531305324)所示，表示presenter\_server的服务启动成功。
 
-    **图 7**  Presenter Server进程启动<a name="fig69531305324"></a>  
+    **图 6**  Presenter Server进程启动<a name="fig69531305324"></a>  
     ![](figures/Presenter-Server进程启动.png "Presenter-Server进程启动")
 
     使用上图提示的URL登录Presenter Server，仅支持Chrome浏览器。IP地址为[步骤2](#li9634105881418)中输入的IP地址，端口号默为7007，如下图所示，表示Presenter Server启动成功。
 
-    **图 8**  主页显示<a name="fig64391558352"></a>  
+    **图 7**  主页显示<a name="fig64391558352"></a>  
     ![](figures/主页显示.png "主页显示")
 
     Presenter Server、Mind Studio与Atlas 200 DK之间通信使用的IP地址示例如下图所示：
 
-    **图 9**  IP地址示例<a name="fig1881532172010"></a>  
+    **图 8**  IP地址示例<a name="fig1881532172010"></a>  
     ![](figures/IP地址示例.png "IP地址示例")
 
     其中：
@@ -280,11 +273,11 @@
 
     等待Presenter Agent传输数据给服务端，单击“Refresh“刷新，当有数据时相应的Channel 的Status变成绿色，如[图 Presenter Server界面](#fig113691556202312)所示。
 
-    **图 10**  Presenter Server界面<a name="fig113691556202312"></a>  
+    **图 9**  Presenter Server界面<a name="fig113691556202312"></a>  
     ![](figures/Presenter-Server界面.png "Presenter-Server界面")
 
     >![](public_sys-resources/icon-note.gif) **说明：**   
-    >-   Face Detection的Presenter Server最多支持10路Channel同时显示，每个  _presenter\_view\_app\_name_  对应一路Channel。  
+    >-   Presenter Server最多支持10路Channel同时显示，每个  _presenter\_view\_app\_name_  对应一路Channel。  
     >-   由于硬件的限制，每一路支持的最大帧率是20fps，受限于网络带宽的影响，帧率会自动适配为较低的帧率进行展示。  
 
 5.  单击右侧对应的View Name链接，比如上图的“video”，查看结果，对于检测到的物体，会给出置信度的标注。
