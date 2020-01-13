@@ -50,15 +50,15 @@
     2.  在弹出的**Convert Model**操作界面中，Model File与Weight File分别选择[步骤2](#li12291771229)中下载的模型文件和权重文件。
         -   **Model Name**填写为[表 检测网络应用\(python\)使用模型](#table1119094515272)对应的**模型名称**：faster\_rcnn。
         -   **Input Image Format**选择**RGB888\_U8**。
-        -   **Input Image Size\[W|H\]**的W修改为**800**，H修改为** 600**。
+        -   **Input Image Size\[W|H\]**的W修改为**800**，H修改为**600**。
         -   关闭**Image Format Conversion**。
         -   其他保持默认值。
 
     3.  单击OK开始转换模型。
 
-        1.3.0.0版本模型转换成功后，后缀为.om的离线模型存放地址为**：$HOME/tools/che/model-zoo/my-model/xxx**。
+        1.3.0.0版本模型转换成功后，后缀为.om的离线模型存放地址为：**$HOME/tools/che/model-zoo/my-model/xxx**。
 
-        1.31.0.0及以上版本模型转换成功后，后缀为.om的离线模型存放地址为**：$HOME/modelzoo/xxx/device/xxx.om**。
+        1.31.0.0及以上版本模型转换成功后，后缀为.om的离线模型存放地址为：**$HOME/modelzoo/xxx/device/xxx.om**。
 
     4.  将转换好的模型文件（.om文件）上传到[步骤1](#li953280133816)中源码所在路径下的“sample-fasterrcnndetection-python/model”目录下。
 
