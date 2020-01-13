@@ -50,7 +50,7 @@
     2.  在弹出的**Convert Model**操作界面中，Model File与Weight File分别选择[步骤2](#li12291771229)中下载的模型文件和权重文件。
         -   **Model Name**填写为[表 检测网络应用\(python\)使用模型](#table1119094515272)对应的**模型名称**：faster\_rcnn。
         -   **Input Image Format**选择**RGB888\_U8**。
-        -   **Input Image Size\[W|H\]**的W修改为**800**，H修改为**600**。
+        -   **Input Image Size\[W|H\]**的W和H分别修改为**800，600**。
         -   关闭**Image Format Conversion**。
         -   其他保持默认值。
 
