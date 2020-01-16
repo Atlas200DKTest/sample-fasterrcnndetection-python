@@ -19,7 +19,7 @@
 
 1.  <a name="li953280133816"></a>获取源码包。
 
-    将[https://gitee.com/Atlas200DK/sample-fasterrcnndetection-python](https://gitee.com/Atlas200DK/sample-fasterrcnndetection-python)仓中的代码以Mind Studio安装用户下载至Mind Studio所在Ubuntu服务器的任意目录，例如代码存放路径为：/home/ascend/sample-fasterrcnndetection-python。
+    将[https://gitee.com/Atlas200DK/sample-fasterrcnndetection-python](https://gitee.com/Atlas200DK/sample-fasterrcnndetection-python)仓中的代码以Mind Studio安装用户下载至Mind Studio所在Ubuntu服务器的任意目录，例如代码存放路径为：$HOME/sample-fasterrcnndetection-python。
 
 2.  <a name="li12291771229"></a>获取此应用中所需要的网络模型。
 
@@ -70,7 +70,7 @@
 
     1.  1.3.0.0版本执行如下命令在最后一行添加DDK\_HOME及LD\_LIBRARY\_PATH的环境变量。
 
-        **export DDK\_HOME=/home/XXX/tools/che/ddk/ddk**
+        **export DDK\_HOME=$HOME/tools/che/ddk/ddk**
 
         **export LD\_LIBRARY\_PATH=$DDK\_HOME/uihost/lib**
     2.  1.31.0.0及以上版本执行如下命令在最后一行添加环境变量。
@@ -83,8 +83,7 @@
 
          **export LD\_LIBRARY\_PATH=\\$DDK\_HOME/lib/x86\_64-linux-gcc5.4:\\$DDK\_HOME/uihost/lib**
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >-   1.3.0.0版本环境变量设置时XXX为Mind Studio安装用户，/home/XXX/tools为DDK默认安装路径。 
+    >![](public_sys-resources/icon-note.gif) **说明：**    
     >-   1.31.0.0及以上版本环境变量设置时1.31.X.X为DDK版本号，可以通过安装的DDK的包名获取，如DDK包的包名为Ascend\_DDK-1.31.T15.B150-1.1.1-x86_64.ubuntu16.04.tar.gz，则此DDK的版本号为1.31.T15.B150。
     >-   如果此环境变量已经添加，则此步骤可跳过。  
 
@@ -96,7 +95,7 @@
 
 
 ## 环境配置<a name="section1759513564117"></a>
-
+**注：开发板上hiai库、opencv库、相关依赖已安装可跳过此步骤**
 1.  配置开发板联网。
     1.  不断开usb连接的情况下，开发板通过网线与可以上网的网口相连。
     2.  在Mind Studio所在Ubuntu服务器中，以HwHiAiUser用户SSH登录到Host侧。
