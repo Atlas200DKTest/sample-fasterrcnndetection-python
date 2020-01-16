@@ -70,7 +70,7 @@
 
         **export DDK\_HOME=/home/XXX/tools/che/ddk/ddk**
 
-        **export LD\_LIBRARY\_PATH=$DDK\_HOME/uihost/lib**
+        **export LD\_LIBRARY\_PATH=$DDK\_HOME/uihost/lib:$DDK\_HOME/uihost/lib**
     2.  1.31.0.0及以上版本执行如下命令在最后一行添加环境变量。
 
          **export tools\_version=_1.31.X.X_**
