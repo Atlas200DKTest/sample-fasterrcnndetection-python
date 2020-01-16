@@ -2,6 +2,8 @@
 
 本Application支持运行在Atlas 200 DK上，实现了对faster-rcnn目标检测网络的推理功能并对视频中的物体信息进行预测的功能。
 
+当前分支中的应用适配**1.3.0.0**与**1.31.0.0及以上**版本的[DDK&RunTime](https://ascend.huawei.com/resources)。
+
 ## 前提条件<a name="section137245294533"></a>
 
 部署此Sample前，需要准备好以下环境：
