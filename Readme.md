@@ -79,7 +79,7 @@
 
          **export NPU\_DEVICE\_LIB=$DDK\_HOME/../RC/host-aarch64\_Ubuntu16.04.3/lib**
 
-         **export LD\_LIBRARY\_PATH=\$DDK\_HOME/lib/x86\_64-linux-gcc5.4:\$DDK\_HOME/uihost/lib**
+         **export LD\_LIBRARY\_PATH=\\$DDK\_HOME/lib/x86\_64-linux-gcc5.4:\\$DDK\_HOME/uihost/lib**
 
     >![](public_sys-resources/icon-note.gif) **说明：**   
     >-   1.3.0.0版本环境变量设置时XXX为Mind Studio安装用户，/home/XXX/tools为DDK默认安装路径。 
