@@ -111,7 +111,8 @@ class detectionInference(object):
                 dr.rb.y = (int)(result[3] * image_frame.height / 600.0)
                 if dr.rb.y < 0:
                     dr.rb.y = 0
-                dr.result_text = kind[result[4]] + ": " + str(result[5])
+                percent = (int)(result[5] * 100)
+                dr.result_text = kind[result[4]] + ": " + str(percent) + "%"
                 image_frame.detection_results.append(dr)
                 #print "result:",result
         all_data = self.channel_manager.PackRequestData(image_frame)
