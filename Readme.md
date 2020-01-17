@@ -192,7 +192,7 @@
 
 ## 部署<a name="section1872516528910"></a>
 
-1.  以Mind Studio安装用户进入fasterrcnn-python应用代码所在根目录，如/home/ascend/sample-fasterrcnndetection-python。
+1.  以Mind Studio安装用户进入fasterrcnn-python应用代码所在根目录，如：$HOME/sample-fasterrcnndetection-python。
 2.  <a name="li9634105881418"></a>执行部署脚本，进行工程环境准备，Presenter Server服务器的配置等操作，其中Presenter Server用于接收Application发送过来的数据并通过浏览器进行结果展示。
 
     **bash deploy.sh** _host\_ip_
@@ -214,7 +214,7 @@
 
 3.  <a name="li156931456596"></a>启动Presenter Server。
 
-    执行如下命令在后台启动Face Detection应用的Presenter Server主程序。
+    执行如下命令在后台启动fasterrcnn python应用的Presenter Server主程序。
 
     **bash start\_presenterserver.sh**
 
